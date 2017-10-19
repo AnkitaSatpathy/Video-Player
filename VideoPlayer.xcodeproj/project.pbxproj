@@ -12,6 +12,8 @@
 		BC5408021F97761300BDB5E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5408001F97761300BDB5E2 /* Main.storyboard */; };
 		BC5408041F97761300BDB5E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5408031F97761300BDB5E2 /* Assets.xcassets */; };
 		BC5408071F97761300BDB5E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5408051F97761300BDB5E2 /* LaunchScreen.storyboard */; };
+		BC54080F1F97767D00BDB5E2 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC54080E1F97767D00BDB5E2 /* VideoCell.swift */; };
+		BC5408131F97C3F500BDB5E2 /* moon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BC5408121F97BF8500BDB5E2 /* moon.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BC5408031F97761300BDB5E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC5408061F97761300BDB5E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC5408081F97761300BDB5E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC54080E1F97767D00BDB5E2 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		BC5408121F97BF8500BDB5E2 /* moon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = moon.mp4; path = ../../../../../Media/Videos/moon.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 			children = (
 				BC5407FC1F97761300BDB5E2 /* AppDelegate.swift */,
 				BC5407FE1F97761300BDB5E2 /* ViewController.swift */,
+				BC54080E1F97767D00BDB5E2 /* VideoCell.swift */,
 				BC5408001F97761300BDB5E2 /* Main.storyboard */,
 				BC5408031F97761300BDB5E2 /* Assets.xcassets */,
+				BC5408121F97BF8500BDB5E2 /* moon.mp4 */,
 				BC5408051F97761300BDB5E2 /* LaunchScreen.storyboard */,
 				BC5408081F97761300BDB5E2 /* Info.plist */,
 			);
@@ -123,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5408131F97C3F500BDB5E2 /* moon.mp4 in Resources */,
 				BC5408071F97761300BDB5E2 /* LaunchScreen.storyboard in Resources */,
 				BC5408041F97761300BDB5E2 /* Assets.xcassets in Resources */,
 				BC5408021F97761300BDB5E2 /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			files = (
 				BC5407FF1F97761300BDB5E2 /* ViewController.swift in Sources */,
 				BC5407FD1F97761300BDB5E2 /* AppDelegate.swift in Sources */,
+				BC54080F1F97767D00BDB5E2 /* VideoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
